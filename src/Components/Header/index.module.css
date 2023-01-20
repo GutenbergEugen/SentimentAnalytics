@@ -1,9 +1,31 @@
 .header_block {
-    background-color: #7f75d8;
+    background-image: url('./media/15410.png');
+    height: 350px;
+    padding: 30px 120px;
+}
+
+.header_block img{
+    height: 100px;
+    width: 100px;
+}
+
+.nav_container{
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_title{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
 }
 
 .nav{
@@ -11,6 +33,7 @@
     justify-content: space-between;
     gap: 20px;
     color: white;
+    
 }
 
 .nav a{

@@ -1,20 +1,24 @@
 import React from 'react';
-import logo from './media/logo.png';
+import logo from './media/Robot.png';
 import { Link } from 'react-router-dom';
 import s from './index.module.css';
 
 export default function Header() {
   return (
     <div className={s.header_block}>
-        <Link to='/'>
-            <img src={logo} alt="logo" />
-        </Link>
-        <nav className={s.nav}>
-            <Link>CUSTOMERS</Link>
-            <Link>PRICING</Link>
-            <Link>FEATURES</Link>
+        <div className={['wrapper', s.nav_container].join(' ')}>
+          <Link to='/' className={s.logo}>
+              <img src={logo} alt="logo" />
+              <p className={s.logo_title}>Sentiment Analytics</p>
+          </Link>
+          <nav className={s.nav}>
+              <Link>CUSTOMERS</Link>
+              <Link>PRICING</Link>
+              <Link>FEATURES</Link>
 
-        </nav>
+          </nav>
+        </div>
+       
 
     </div>
   )
