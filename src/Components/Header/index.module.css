@@ -1,0 +1,19 @@
+.header_block {
+    background-color: #7f75d8;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
