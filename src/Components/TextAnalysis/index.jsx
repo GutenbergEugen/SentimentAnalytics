@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './index.module.css';
+// import FileUploadSingle from '../FileUploadSingle';
 
 export default function TextAnalysis() {
   return (
@@ -15,6 +16,9 @@ export default function TextAnalysis() {
             <h3>Results</h3>
             <p className={s.results_text}>Positive 65%</p>
           </div>
+        </div>
+        <div>
+          {/* <FileUploadSingle /> */}
         </div>
         <button>Alanyze Text</button>
       </form>
